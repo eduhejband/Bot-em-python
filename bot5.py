@@ -3,8 +3,8 @@
 import pandas as pd
 
 
-df = pd.read_excel("LAJEADO_2023 (1).xlsx",sheet_name="teste")
+df = pd.read_excel("ARQUIVO.xlsx",sheet_name="teste")
 
 df.dropna(how='any', inplace=True)
 
-df.to_excel("LAJEADO_2023 (1).xlsx",sheet_name="teste", index=False)
+df.to_excel("ARQUIVO.xlsx",sheet_name="teste", index=False)
